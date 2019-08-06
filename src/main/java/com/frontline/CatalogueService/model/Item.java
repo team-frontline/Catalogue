@@ -15,6 +15,29 @@ public class Item {
     private int quantity;
     private double price;
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public Integer getNumberOfRaters() {
+        return numberOfRaters;
+    }
+
+    public void setNumberOfRaters(Integer numberOfRaters) {
+        this.numberOfRaters = numberOfRaters;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
+    }
+
+    private Integer numberOfRaters;
+    private Integer rating;
+
     public Item(){}
 
     public Item(String itemID,String itemName, int quantity, double price){
