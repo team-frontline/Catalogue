@@ -35,8 +35,8 @@ public class ItemController {
     }
 
     @PutMapping(value = "/reduce_quantity/{itemID}")
-    public Item updateItem(@PathVariable String itemID,@RequestBody int reducedQuantity){
-        return itemService.decrementQuantity(itemID,reducedQuantity);
+    public Item reduceQuantity(@PathVariable String itemID, @RequestBody Item item){
+        return itemService.decrementQuantity(itemID,item.getQuantity());
     }
 
     @DeleteMapping(value = "/{itemID}")
