@@ -15,26 +15,6 @@ public class Item {
     private int quantity;
     private double price;
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public Integer getNumberOfRaters() {
-        return numberOfRaters;
-    }
-
-    public void setNumberOfRaters(Integer numberOfRaters) {
-        this.numberOfRaters = numberOfRaters;
-    }
-
-    public Integer getRating() {
-        return rating;
-    }
-
-    public void setRating(Integer rating) {
-        this.rating = rating;
-    }
-
     private Integer numberOfRaters;
     private Integer rating;
 
@@ -51,6 +31,10 @@ public class Item {
         return id;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getItemID() {
         return itemID;
     }
@@ -61,10 +45,6 @@ public class Item {
 
     public String getItemName() {
         return itemName;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public void setItemName(String itemName) {
@@ -83,7 +63,23 @@ public class Item {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Integer getNumberOfRaters() {
+        return numberOfRaters;
+    }
+
+    public void setNumberOfRaters(Integer numberOfRaters) {
+        this.numberOfRaters = numberOfRaters;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
     }
 }

@@ -32,6 +32,7 @@ public class ItemController {
     @PostMapping(value = "")
     public Item create(@RequestBody Item newItem){
         return itemService.addItem(newItem);
+//        return newItem;
     }
 
     @PutMapping(value = "/reduce_quantity/{itemID}")
