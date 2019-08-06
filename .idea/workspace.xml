@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec28bb90-edee-4ae9-8a37-de9aa07dd337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/model/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frontline/CatalogueService/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/model/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/frontline/CatalogueService/service/ItemService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565084156463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rating Rest Call added">
+      <created>1565114431766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565114431766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -177,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Resolve API" />
     <MESSAGE value="Update Item class with attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Item class with attributes" />
+    <MESSAGE value="Rating Rest Call added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rating Rest Call added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Catalogue$CatalogueServiceApplication.ic" NAME="CatalogueServiceApplication Coverage Results" MODIFIED="1565070804379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
